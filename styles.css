@@ -34,9 +34,20 @@ a:hover { text-decoration: underline; }
 }
 
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 20px;
   font-weight: 700;
   color: var(--pink);
+}
+
+.nav-logo:hover { text-decoration: none; }
+
+.nav-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
 }
 
 .nav-links { display: flex; gap: 24px; }
